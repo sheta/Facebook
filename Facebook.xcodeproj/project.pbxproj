@@ -13,6 +13,15 @@
 		DA716A8419BA6B74002C93DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA716A8219BA6B74002C93DB /* Main.storyboard */; };
 		DA716A8619BA6B74002C93DB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA716A8519BA6B74002C93DB /* Images.xcassets */; };
 		DA716A9219BA6B74002C93DB /* FacebookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA716A9119BA6B74002C93DB /* FacebookTests.m */; };
+		DAFF351419BA73960097E984 /* NewsFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFF351319BA73960097E984 /* NewsFeedViewController.swift */; };
+		DAFF351619BD5D030097E984 /* RequestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFF351519BD5D030097E984 /* RequestsViewController.swift */; };
+		DAFF351819BD5EF50097E984 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFF351719BD5EF50097E984 /* MessageViewController.swift */; };
+		DAFF351A19BD60120097E984 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFF351919BD60120097E984 /* NotificationViewController.swift */; };
+		DAFF351C19BD616E0097E984 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFF351B19BD616E0097E984 /* SettingsViewController.swift */; };
+		DAFF351E19BD7FF70097E984 /* ThrillistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFF351D19BD7FF70097E984 /* ThrillistViewController.swift */; };
+		DAFF352019BE09460097E984 /* CheckInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFF351F19BE09460097E984 /* CheckInViewController.swift */; };
+		DAFF352219BE0B5B0097E984 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFF352119BE0B5B0097E984 /* PhotoViewController.swift */; };
+		DAFF352419BE0B770097E984 /* StatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFF352319BE0B770097E984 /* StatusViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +47,15 @@
 		DA716A8B19BA6B74002C93DB /* FacebookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FacebookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA716A9019BA6B74002C93DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA716A9119BA6B74002C93DB /* FacebookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FacebookTests.m; sourceTree = "<group>"; };
+		DAFF351319BA73960097E984 /* NewsFeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsFeedViewController.swift; sourceTree = "<group>"; };
+		DAFF351519BD5D030097E984 /* RequestsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestsViewController.swift; sourceTree = "<group>"; };
+		DAFF351719BD5EF50097E984 /* MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		DAFF351919BD60120097E984 /* NotificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		DAFF351B19BD616E0097E984 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		DAFF351D19BD7FF70097E984 /* ThrillistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThrillistViewController.swift; sourceTree = "<group>"; };
+		DAFF351F19BE09460097E984 /* CheckInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckInViewController.swift; sourceTree = "<group>"; };
+		DAFF352119BE0B5B0097E984 /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		DAFF352319BE0B770097E984 /* StatusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				DA716A7C19BA6B74002C93DB /* AppDelegate.h */,
+				DAFF350F19BA72C80097E984 /* ViewControllers */,
 				DA716A7D19BA6B74002C93DB /* AppDelegate.m */,
 				DA716A7F19BA6B74002C93DB /* ViewController.h */,
 				DA716A8019BA6B74002C93DB /* ViewController.m */,
@@ -114,6 +133,22 @@
 				DA716A9019BA6B74002C93DB /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DAFF350F19BA72C80097E984 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				DAFF352119BE0B5B0097E984 /* PhotoViewController.swift */,
+				DAFF351319BA73960097E984 /* NewsFeedViewController.swift */,
+				DAFF351519BD5D030097E984 /* RequestsViewController.swift */,
+				DAFF351719BD5EF50097E984 /* MessageViewController.swift */,
+				DAFF351919BD60120097E984 /* NotificationViewController.swift */,
+				DAFF351B19BD616E0097E984 /* SettingsViewController.swift */,
+				DAFF351D19BD7FF70097E984 /* ThrillistViewController.swift */,
+				DAFF351F19BE09460097E984 /* CheckInViewController.swift */,
+				DAFF352319BE0B770097E984 /* StatusViewController.swift */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,9 +250,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAFF351619BD5D030097E984 /* RequestsViewController.swift in Sources */,
+				DAFF351E19BD7FF70097E984 /* ThrillistViewController.swift in Sources */,
 				DA716A8119BA6B74002C93DB /* ViewController.m in Sources */,
 				DA716A7E19BA6B74002C93DB /* AppDelegate.m in Sources */,
+				DAFF352419BE0B770097E984 /* StatusViewController.swift in Sources */,
+				DAFF352019BE09460097E984 /* CheckInViewController.swift in Sources */,
+				DAFF351A19BD60120097E984 /* NotificationViewController.swift in Sources */,
 				DA716A7B19BA6B74002C93DB /* main.m in Sources */,
+				DAFF351819BD5EF50097E984 /* MessageViewController.swift in Sources */,
+				DAFF351419BA73960097E984 /* NewsFeedViewController.swift in Sources */,
+				DAFF351C19BD616E0097E984 /* SettingsViewController.swift in Sources */,
+				DAFF352219BE0B5B0097E984 /* PhotoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,9 +376,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Facebook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Facebook/Facebook-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -343,9 +390,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Facebook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Facebook/Facebook-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -402,6 +451,7 @@
 				DA716A9719BA6B74002C93DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA716A9819BA6B74002C93DB /* Build configuration list for PBXNativeTarget "FacebookTests" */ = {
 			isa = XCConfigurationList;
@@ -410,6 +460,7 @@
 				DA716A9A19BA6B74002C93DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
